@@ -93,8 +93,6 @@ nav li a {
   color: white;
 }
 
-
-
 .row:before{
     display:table;
     content:""; /*i can write in content and it will appear BEFORE the row*/
@@ -109,11 +107,10 @@ nav li a {
 
 .column-70{
     width:70%;
-    float:left;
     height:500px;
     box-sizing: border-box;
     padding:20px;
-    
+    float:left;
 }
 
 .column-70-inner{
@@ -124,14 +121,14 @@ nav li a {
 
 .column-30{
     width:30%;
-    float:left;
-    height:500px;
+    /* height:500px; */
     box-sizing: border-box;
     padding:20px;
+    float:left;
 }
 
 .column-30-inner{
-    height:90%;
+    /*height:90%;*/
     background-color:white;
 }
 
@@ -157,11 +154,11 @@ nav li a {
 }
 .barText{
     font-weight: bold;
-    padding: 10px;
+    /*padding: 10px;*/
 
 }
 
-/* PARTNER EXERCISE #2 */
+/*responsive css - PARTNER EXERCISE #2 */
 @media(max-width:700px){
   .column{
     width: 100%;
@@ -173,3 +170,4 @@ nav li a {
     width: 100%;
   }
 }
+
